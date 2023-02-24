@@ -1,0 +1,182 @@
+{
+  "id": "f88c3642-4385-4064-9954-0f3b3eb40b55",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.uol.com.br",
+  "tests": [{
+    "id": "d405a01f-fcdd-485f-a267-7232565ff7be",
+    "name": "teste",
+    "commands": [{
+      "id": "67c2d936-eade-449d-a396-a82ce554d0dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53840629-a4e3-4387-b50f-9cb491abd51f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "250aed9f-d0af-4dce-a27f-0919c4de0165",
+      "comment": "",
+      "command": "click",
+      "target": "id=lehaq8nt",
+      "targets": [
+        ["id=lehaq8nt", "id"],
+        ["css=#lehaq8nt", "css:finder"],
+        ["xpath=//h3[@id='lehaq8nt']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[3]/section[2]/div/div/div[2]/div/div/article/a/div/h3", "xpath:idRelative"],
+        ["xpath=//div/article/a/div/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f46c5f1-8cb7-4cb0-967a-5d4c61a99f8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-item:nth-child(4) > a",
+      "targets": [
+        ["css=.menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Economia')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://economia.uol.com.br/')])[3]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16871180-3bde-4bb3-99e1-6292ab67f949",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.menu-item:nth-child(4) > a",
+      "targets": [
+        ["css=.menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Economia')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://economia.uol.com.br/')])[4]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9c5b42-5af8-4c4c-8503-5fdc4466ca7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-item:nth-child(3) > a",
+      "targets": [
+        ["css=.menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Carros')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.uol.com.br/carros/')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a88a4bf-ece3-4035-bc3e-d96e09f57029",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-item:nth-child(3) > a",
+      "targets": [
+        ["css=.menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Carros')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.uol.com.br/carros/')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff6b908b-18ad-4780-ba57-5de8a2422b74",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.menu-item:nth-child(3) > a",
+      "targets": [
+        ["css=.menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Carros')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.uol.com.br/carros/')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49adc224-7097-4f5d-93ba-04bec0ef87ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destaque .thumb-title",
+      "targets": [
+        ["css=.destaque .thumb-title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Vorax: como o único supercarro do Brasil foi da promessa ao esquecimento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfd5fbb0-c250-44a2-b375-09239c5d0eb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-uol-svg",
+      "targets": [
+        ["css=.logo-uol-svg", "css:finder"],
+        ["xpath=//img[@alt='UOL - O melhor conteúdo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8df8d134-099b-44f4-a2af-53641e62d56b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hyperlink > div > .icon__image",
+      "targets": [
+        ["css=.hyperlink > div > .icon__image", "css:finder"],
+        ["xpath=//img[@alt='UOL - Seu universo online']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/header/h1/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aa5ec5f-868e-4594-8e66-94f43d4af0a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hyperlink > div > .icon__image",
+      "targets": [
+        ["css=.hyperlink > div > .icon__image", "css:finder"],
+        ["xpath=//img[@alt='UOL - Seu universo online']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/header/h1/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51557f47-b09f-481b-ba6a-340250708c2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1204)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7f988ad-3492-4c8e-afc1-102c12c32fec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1800.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "363d55bd-3981-4f91-b2e2-7cfe5d52c3fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=leh6r9fh",
+      "targets": [
+        ["id=leh6r9fh", "id"],
+        ["css=#leh6r9fh", "css:finder"],
+        ["xpath=//h3[@id='leh6r9fh']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[3]/section[2]/div/div/div[2]/div/div/div[2]/div/div[3]/div/div/div/div[2]/article/a/div/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/article/a/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Elize Matsunaga vira motorista de aplicativo no interior de SP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e9475c2-28f7-4115-a3b4-094f23f756b0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d405a01f-fcdd-485f-a267-7232565ff7be"]
+  }],
+  "urls": ["https://www.uol.com.br/"],
+  "plugins": []
+}
