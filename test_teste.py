@@ -13,6 +13,8 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 class TestTeste():
   def setup_method(self, method):
     self.driver = webdriver.Chrome()
+    self.driver.implicitly_wait(30) # o robo ira esperar ate 30 segundos
+    self.driver.maximize_window() #Maximizar janela do navegagor
     self.vars = {}
   
   def teardown_method(self, method):
@@ -24,6 +26,7 @@ class TestTeste():
     self.driver.find_element(By.ID, "lehaq8nt").click()
     element = self.driver.find_element(By.CSS_SELECTOR, ".menu-item:nth-child(4) > a")
     actions = ActionChains(self.driver)
+    time.sleep(3)
     actions.move_to_element(element).perform()
     element = self.driver.find_element(By.CSS_SELECTOR, "body")
     actions = ActionChains(self.driver)
