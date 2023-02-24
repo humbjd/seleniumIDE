@@ -38,9 +38,21 @@ class Test_selenium_webdriver():
         time.sleep(1)
         # Selenium verifica o valor do curso
         assert self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/main/div[1]/div/section/div/div[1]/div/div[1]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/p').text == 'R$ 27,90'
-
-
-
+        # Selenium retorna a tela inicial
+        self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/div[1]/div/div[1]/a/div/img').click()
+        time.sleep(2)
+        # Selenium abre a pagina de contato
+        self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/div[1]/div/div[1]/div[5]/a/div').click()
+        time.sleep(2)
+        self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/main/div/section/div/div/div/div/form/div[1]/div/div/input').click()
+        time.sleep(1)
+        self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/main/div/section/div/div/div/div/form/div[1]/div/div/input').send_keys('Beto')
+        time.sleep(1)
+        self.driver.find_element('xpath','/html/body/div/div/div/div[1]/main/div/section/div/div/div/div/form/div[2]/div/div[1]/input').send_keys('hjdclass@gmail.com')
+        time.sleep(1)
+        self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/main/div/section/div/div/div/div/form/div[3]/section/textarea').send_keys('Olá, gostaria de saber quando começa a turma 138')
+        time.sleep(1)
+        self.driver.find_element('xpath', '/html/body/div/div/div/div[1]/main/div/section/div/div/div/div/form/div[4]/button/span/span/span').click()
 
 
 
